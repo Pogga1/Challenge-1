@@ -54,7 +54,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../Challenge-1/digital-marketing-meeting.jpg");
+    background-image: url("../Challenge-1/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
@@ -86,7 +86,7 @@ p {
     background-color: #2589bd
 ;
 }
-
+/*consolidating code in this wit fewer brackets */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -199,3 +199,29 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width:320px)  {.search-engine-optimization, .online-reputation-management, .social-media-marketing,
+.benefit-lead, .benefit-brand, .benefit-cost } 
+
+@media screen (min-width:320px) and (max-width:640px)
+    {.search-engine-optimization, .online-reputation-management, .social-media-marketing,
+            .benefit-lead, .benefit-brand, .benefit-cost }  
+@media screen and (max-width: 320px) {
+    .search-engine-optimization, .online-reputation-management, .social-media-marketing,
+        .benefit-lead, .benefit-brand, .benefit-cost 
+    #somethingorother } {
+      width: 120px ;
+    }
+  
+  @media screen and (min-width: 321px) and (max-width: 480px) 
+    {.search-engine-optimization, .online-reputation-management, .social-media-marketing,
+        .benefit-lead, .benefit-brand, .benefit-cost } 
+    #somethingorother {
+      width: 320px ;
+    }
+  
+  @media screen and (min-width: 481px) 
+    {.search-engine-optimization, .online-reputation-management, .social-media-marketing,
+        .benefit-lead, .benefit-brand, .benefit-cost }
+    #somethingorother {
+      width: 480px ;}
